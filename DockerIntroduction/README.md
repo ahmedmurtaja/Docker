@@ -67,9 +67,41 @@ A hypervisor is a program that allows multiple operating systems to share a sing
 
 ![container](https://github.com/ahmedmurtaja/Docker/assets/56529633/c67ec6e8-684b-41e9-8326-569432a3cbed)
 
+<hr>
 
 - A virtual machine (VM) is an operating system (OS) or an application that enables you to run multiple operating systems on the same physical hardware machine, and in a secure, isolated environment.
 
 ![VM](https://github.com/ahmedmurtaja/Docker/assets/56529633/66d6ce18-e1a0-4f63-9959-65ea16c9744c)
 
 
+A container runs natively on an OS and shares the kernel of the host machine with other containers. It runs a discrete **process**, taking no more memory than any other executable, making it lightweight.
+
+By contrast, a virtual machine (VM) runs a full-blown “guest” operating system with virtual access to host resources through a hypervisor. In general, VMs incur a lot of overhead beyond what is being consumed by your application logic.
+
+<hr>
+
+|            | Containers                                             | Virtual Machines (VMs)                                       |
+|------------|--------------------------------------------------------|-------------------------------------------------------------|
+| Technology | Docker, Kubernetes, containerization platforms         | VMware, Hyper-V, Xen, virtualization platforms                |
+| Isolation  | Lightweight isolation                                  | Strong isolation                                             |
+| Resource   | Shares host OS kernel, minimal duplication              | Emulates complete OS, duplication of OS and system resources |
+| Overhead   | Lower resource overhead, faster startup times           | Higher resource overhead, slower startup times               |
+| Portability | Highly portable, easy to deploy across different hosts | Less portable, tied to specific virtualization platform      |
+| Scalability | Easy to scale horizontally and vertically              | Scaling depends on virtualization platform capabilities      |
+| Use Cases  | Microservices, distributed applications                | Legacy applications, different OS requirements               |
+| Performance| Better performance due to reduced overhead              | Slightly reduced performance due to virtualization layers    |
+
+Source: [Docker vs. VMs](https://www.docker.com/resources/what-container)
+
+<hr>
+
+### So why container is faster in booting up than VM?
+> Because docker container is just a process that runs on the host machine, so it doesn't need to boot up a whole OS.
+
+> While VM is a whole OS that runs on the host machine, so it needs to boot up the whole OS.
+
+### why creating a container is faster than creating a VM?
+
+> because we dont need hypervisor to create a container, while we need hypervisor to create a VM.
+
+<hr>
