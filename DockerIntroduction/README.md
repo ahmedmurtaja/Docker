@@ -53,15 +53,23 @@ A kernel is the central part of an operating system. It manages the operations o
 
 <b> its main job is to manage the communication between the software and the hardware. </b>
 
+<hr>
+
 ### Hypervisor or Virtual Machine Monitor (VMM) 
 
 A hypervisor is a program that allows multiple operating systems to share a single hardware host. Each operating system appears to have the host's processor, memory, and other resources all to itself.
+
+<hr>
 
 ### So what is the difference between VM and Docker?
 
 - Docker is a containerization platform which packages your application and all its dependencies together in the form of containers so as to ensure that your application works seamlessly in any environment be it development or test or production.
 
+![container](https://github.com/ahmedmurtaja/Docker/assets/56529633/c67ec6e8-684b-41e9-8326-569432a3cbed)
+
 
 - A virtual machine (VM) is an operating system (OS) or an application that enables you to run multiple operating systems on the same physical hardware machine, and in a secure, isolated environment.
+
+![VM](https://github.com/ahmedmurtaja/Docker/assets/56529633/66d6ce18-e1a0-4f63-9959-65ea16c9744c)
 
 
