@@ -9,7 +9,7 @@
 Docker is a computer program that performs operating-system-level virtualization, also known as “containerization”.
 
 <p align="center">
-  <img src="https://github.com/ahmedmurtaja/Docker/assets/56529633/974b0860-2074-4250-8e07-9176c3c9d02f" alt="Docker" />
+  <img src="https://github.com/GSG-G13/Docker/assets/56529633/67d628d2-55ca-4e6c-8388-d582ee0c0903" alt="Docker" />
 </p>
 
 
@@ -23,7 +23,7 @@ Containerization is a lightweight alternative to full machine virtualization tha
  2 still not understand -->
 
 <p align="center">
-  <img src="https://github.com/ahmedmurtaja/Docker/assets/56529633/7076d595-cb2e-4a2e-b34f-4fffe81db49e" alt="Docker" />
+  <img src="https://github.com/GSG-G13/Docker/assets/56529633/e56165cf-7814-47a0-89c8-47372a3a6910" alt="Docker" />
 </p>
 
 So Suppose, for instance, that two apps both use Node but have various versions. In a solitary setting, they may run beside one another without interfering with one another.
@@ -35,7 +35,7 @@ so we can say that container is a isolated environment for running an applicatio
 
 
 <p align="center">
-  <img src="https://github.com/ahmedmurtaja/Docker/assets/56529633/f6944e37-bd3b-42db-b2ff-2e76d13013f1" alt="Docker" />
+  <img src="https://github.com/GSG-G13/Docker/assets/56529633/54e5ea9e-6792-4a39-b364-0e80d943a4a5" alt="Docker" />
 </p>
 
 
@@ -65,14 +65,14 @@ A hypervisor is a program that allows multiple operating systems to share a sing
 
 - Docker is a containerization platform which packages your application and all its dependencies together in the form of containers so as to ensure that your application works seamlessly in any environment be it development or test or production.
 
-![container](https://github.com/ahmedmurtaja/Docker/assets/56529633/c67ec6e8-684b-41e9-8326-569432a3cbed)
+![container](https://github.com/GSG-G13/Docker/assets/56529633/0c39c066-43b6-4852-8084-c47e89eb9cf0)
+
 
 <hr>
 
 - A virtual machine (VM) is an operating system (OS) or an application that enables you to run multiple operating systems on the same physical hardware machine, and in a secure, isolated environment.
 
-![VM](https://github.com/ahmedmurtaja/Docker/assets/56529633/66d6ce18-e1a0-4f63-9959-65ea16c9744c)
-
+![VM](https://github.com/GSG-G13/Docker/assets/56529633/3fa80e79-a297-476e-9d78-94c705eb6e5c)
 
 A container runs natively on an OS and shares the kernel of the host machine with other containers. It runs a discrete **process**, taking no more memory than any other executable, making it lightweight.
 
@@ -106,8 +106,7 @@ Source: [Docker vs. VMs](https://www.docker.com/resources/what-container)
 
 <hr>
 
-![image](https://github.com/ahmedmurtaja/Docker/assets/56529633/d7037c05-4da2-4f34-9bb7-fd5e2a930695)
-
+![image](https://github.com/GSG-G13/Docker/assets/56529633/8a2561c2-17fd-4529-8c87-df5b7f4fa042)
 
 
 
