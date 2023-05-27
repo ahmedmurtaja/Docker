@@ -31,7 +31,25 @@ No, Docker is not a VM. Docker is a containerization platform which packages you
 
 ## What the difference between VM and Docker?
 
+### First, let's understand two terms:
+- kernel
+- Hypervisor
+
+### Kernel
+
+A kernel is the central part of an operating system. It manages the operations of the computer and the hardware, most notably memory and CPU time. 
+
+<b> its main job is to manage the communication between the software and the hardware. </b>
+
+### Hypervisor or Virtual Machine Monitor (VMM) 
+
+A hypervisor is a program that allows multiple operating systems to share a single hardware host. Each operating system appears to have the host's processor, memory, and other resources all to itself.
+
+### So what is the difference between VM and Docker?
+
+- Docker is a containerization platform which packages your application and all its dependencies together in the form of containers so as to ensure that your application works seamlessly in any environment be it development or test or production.
 
 
+- A virtual machine (VM) is an operating system (OS) or an application that enables you to run multiple operating systems on the same physical hardware machine, and in a secure, isolated environment.
 
 
