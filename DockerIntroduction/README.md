@@ -104,9 +104,28 @@ Source: [Docker vs. VMs](https://www.docker.com/resources/what-container)
 
 > because we dont need hypervisor to create a container, while we need hypervisor to create a VM.
 
+
+<hr>
+
+A Docker container, unlike a virtual machine, does not require or include a separate operating system. Instead, it relies on the kernel’s functionality and uses resource isolation for CPU and memory, and separate namespaces to isolate the application’s view of the operating system.
+
+
 <hr>
 
 ![image](https://github.com/GSG-G13/Docker/assets/56529633/8a2561c2-17fd-4529-8c87-df5b7f4fa042)
 
 
 
+## Docker Images
+
+A Docker image is a file, comprised of multiple layers, that is used to execute code in a Docker container. An image is essentially built from the instructions for a complete and executable version of an application, which relies on the host OS kernel.
+
+
+>A Docker image is containing everything needed to run an application as a container. This includes:
+
+- code
+- runtime
+- libraries
+- environment variables
+- configuration files
+- The image can then be deployed to any Docker environment and executable as a container.
