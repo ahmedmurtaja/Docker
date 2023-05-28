@@ -1,5 +1,6 @@
 # Docker
 
+- ## Day 0 : [OS Introduction and Prerequisite](DayZero)
 - ## Day 1 :  [Docker Introduction](DockerIntroduction/README.md)
 
 - ## Day 2 :  [Docker Day 2](Docker2/README.md)
