@@ -132,7 +132,7 @@ So whats the three levels of cache ?
 
 processes are managed by the OS, so the OS is responsible for creating the processes and destroying the processes and switching between the processes.
 
-## What is the thread ?
+<!-- ## What is the thread ? -->
 
   
 <!-- CPU -->
