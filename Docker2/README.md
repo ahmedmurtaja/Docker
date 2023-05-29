@@ -2,6 +2,8 @@
 
 ## Docker Engine Architecture
 
+![image](https://github.com/GSG-G13/Docker/assets/56529633/345bd90d-f466-4716-b15f-764083031d5e)
+
 - Docker is made up of 3 main components :
 
 1. Docker Client : The Docker Client is a command line tool that is used to interact with the Docker daemon.
@@ -15,6 +17,8 @@
 So the Docker Client will send commands to the Docker Daemon, and the Docker Daemon will execute the commands and send the output to the Docker Client.
 
 ## Docker Engine
+
+![image](https://github.com/GSG-G13/Docker/assets/56529633/e2ccc990-4d67-489a-92c0-4fdda8b6d80e)
 
 > Remember that process is a program that is running on the computer.
 
