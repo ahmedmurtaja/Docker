@@ -30,6 +30,28 @@ For example, when we run the command `docker run hello-world`, the Docker Client
 
 -shim keep listening to the container, and when the container stops, the shim will stop.
 
+## Docker Basic Commands
 
+docker image ls
+This command lists all the Docker images available on your machine, providing details such as the repository, tag, image ID, and size of each image.
 
+docker image pull centos:latest
+This command pulls the latest version of the CentOS image from the Docker Hub repository, downloading and storing it locally on your machine.
 
+docker container ls
+This command lists all the running Docker containers on your machine, displaying information such as the container ID, image used, command executed, container status, and assigned names.
+
+docker container stop <containername>
+This command stops a running Docker container specified by its name or container ID. It sends a termination signal to the container, allowing it to gracefully stop and release its resources.
+
+docker container exec -it <containername> bash
+This command allows you to execute an interactive shell session (bash) inside a running Docker container. The -it flags allocate a pseudo-TTY and keep STDIN open, enabling an interactive session with the container.
+
+docker container stop <containername>
+This command stops a running Docker container specified by its name or container ID. It sends a termination signal to the container, allowing it to gracefully stop and release its resources.
+
+docker container start <containername>
+This command starts a previously stopped Docker container specified by its name or container ID. The container resumes from the state it was in before it was stopped.
+
+Remove a container:
+This command removes a Docker container specified by its name or container ID. The container must be stopped before it can be removed. This command permanently deletes the container and frees up the resources associated with it.
