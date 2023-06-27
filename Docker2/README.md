@@ -32,42 +32,54 @@ For example, when we run the command `docker run hello-world`, the Docker Client
 
 ## Docker Basic Commands
 
-docker image ls
+``docker image ls``
 This command lists all the Docker images available on your machine, providing details such as the repository, tag, image ID, and size of each image.
 
-docker image pull centos:latest
+``docker image pull centos:latest``
 This command pulls the latest version of the CentOS image from the Docker Hub repository, downloading and storing it locally on your machine.
 
-docker container ls
+``docker container ls``
 This command lists all the running Docker containers on your machine, displaying information such as the container ID, image used, command executed, container status, and assigned names.
 
-docker container stop <containername>
+``docker container stop <containername>``
 This command stops a running Docker container specified by its name or container ID. It sends a termination signal to the container, allowing it to gracefully stop and release its resources.
 
-docker container exec -it <containername> bash
+``docker container exec -it <containername> bash``
 This command allows you to execute an interactive shell session (bash) inside a running Docker container. The -it flags allocate a pseudo-TTY and keep STDIN open, enabling an interactive session with the container.
 
-docker container stop <containername>
+``docker container stop <containername>``
 This command stops a running Docker container specified by its name or container ID. It sends a termination signal to the container, allowing it to gracefully stop and release its resources.
 
-docker container start <containername>
+``docker container start <containername>``
 This command starts a previously stopped Docker container specified by its name or container ID. The container resumes from the state it was in before it was stopped.
 
 Remove a container:
+``docker container rm <containername>``
 This command removes a Docker container specified by its name or container ID. The container must be stopped before it can be removed. This command permanently deletes the container and frees up the resources associated with it.
 
-```js
+```bash
 docker container run -it -p 3000:3000 node bash
+```
+> This Command Run Container with Interactive mode and expose port 3000
+> and run bash command inside this node container
 
+- after entering interactive mode you can run any command inside the container
+
+```bash
 apt update 
 apt upgrade
-
 apt install nano
 
+```
 
+- Setup Our App 
+
+```bash
 mkdir app && cd app && touch index.js && nano index.js
 npm i express
+```
 
+```js
 const express = require('express');
 const app = express();
 const port = 3000;
@@ -80,11 +92,9 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
-node index.js
-
-
-
-//
-docker commit conatinerName mytestimage
 
 ```
+
+- Now you can run it ``node index.js``
+
+- ``docker commit conatinerName mytestimage`` : this command will create image from container

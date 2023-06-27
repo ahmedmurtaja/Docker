@@ -40,10 +40,3 @@ Check out the following resources for Dockerfile examples:
 
 - [Docker Hub](https://hub.docker.com/): Explore Docker Hub to find Dockerfiles shared by the community for popular applications and services.
 
-## Contributing
-
-If you have improvements or additional examples to share, feel free to submit a pull request or open an issue in this repository.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).

@@ -5,7 +5,7 @@
 
 - ## Day 2 :  [Docker Architecture and Basic Commands](Docker2/README.md)
 
-- ## Day 3 :  [Docker Day 3 ](Docker3/README.md)
+- ## Day 3 :  [Docker File and Practical Session ](Docker3/README.md)
 
 - ## Day 4 :  [Docker Day 4](Docker4/README.md)
 

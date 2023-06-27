@@ -14,4 +14,3 @@ Definition: Infrastructure as a Service (IaaS) is a form of cloud computing that
 
 - Users are responsible for managing applications, data, runtime, middleware, and OSes.
 
-## PaaS
